@@ -4,7 +4,7 @@ from dimsum.models.timing import Timing
 
 
 class Recipe(BaseModel):
-    id: str
+    id: str = None
     name: str
     description: str = ""
     timing: Timing = Timing()
